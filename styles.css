@@ -1,0 +1,334 @@
+body{
+   margin:0;
+}
+p{
+  font-family:"Century Gothic";
+}
+.name{
+  text-align: center;
+  font-size: 100px;
+  color: #66BFBF;
+}
+hr{
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+  margin-left: 720px;
+
+}
+.mean{
+  text-align: center;
+}
+img{
+  height: 190px;
+}
+.tb1{
+  margin-left: 200px;
+}
+img:hover{
+  background-color: #66BFBF;
+}
+td{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.About{
+  text-align: center;
+  font-size: 50px;
+  color: #3D2C8D;
+}
+p{
+  text-align: center;
+  color: #3D2C8D;
+  font-size: 20px;
+}
+.Food{
+  font-size: 75px;
+  text-align: center;
+  color: #66BFBF;
+}
+.Clothes{
+  font-size: 75px;
+  text-align: center;
+  color: #66BFBF;
+}
+.Stationery{
+  font-size: 75px;
+  text-align: center;
+  color: #66BFBF;
+}
+form{
+  text-align: center;
+}
+.homebutton{
+  height: 120px;
+}
+.img_food {
+    position: relative;
+    display: inline-block;
+    left: 200px;
+    padding-left: 80px;
+}
+.img_stationary {
+    position: relative;
+    display: inline-block;
+    left: 536px;
+}
+.img_clothe {
+    position: relative;
+    display: inline-block;
+    left: 367px;
+}
+.img_link{
+  margin-left: 250px;
+}
+.p1{
+   display: inline;
+   margin-left: 270px;
+font-size: 20px;
+padding-left: 30px;
+
+}
+.p2{
+  display: inline;
+  margin-left: 200px;
+  font-size: 20px;
+  padding-left: 40px;
+}
+.p3{
+  display: inline;
+  margin-left: 200px;
+  font-size: 20px;
+}
+.food{
+ position: absolute;
+ left:300px;
+ margin-top: 20000px;
+}
+.clothes{
+ position: absolute;
+ left:600px;
+}
+.books{
+ position: absolute;
+ left:900px;
+}
+.home_button{
+  position: absolute;
+  right:30px;
+  top: 30px;
+
+}
+.topnav{
+  background-color:#66BFBF;
+  width:100%;
+  height: 100px;
+  position: fixed;
+  margin-top: 0;
+  margin-left: 0;
+  top:0;
+  float: right;
+
+}
+
+.form{
+  margin-top:120px;
+}
+.donatebutton {
+  background: #20a3fa;
+  background-image: -webkit-linear-gradient(top, #20a3fa, #103c57);
+  background-image: -moz-linear-gradient(top, #20a3fa, #103c57);
+  background-image: -ms-linear-gradient(top, #20a3fa, #103c57);
+  background-image: -o-linear-gradient(top, #20a3fa, #103c57);
+  background-image: linear-gradient(to bottom, #20a3fa, #103c57);
+  -webkit-border-radius: 45;
+  -moz-border-radius: 45;
+  border-radius: 45px;
+  font-family: Arial;
+  color: #cbf2f0;
+  font-size: 27px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.donatebutton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+a.active{
+  color:#cbf2f0;
+  float:right;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+a:hover{
+  text-decoration: underline;
+}
+* {
+  box-sizing: border-box;
+}
+.c1{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 40px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form1{
+text-align: left;
+font-size: 25px;
+}
+.img1{
+  width: 100%;
+  height:100%;
+}
+.bottom{
+background-color:#66BFBF;
+overflow: hidden;
+height:60px;
+bottom: 0;
+width: 100%;
+}
+.active2{
+float: none;
+top:50px;
+font-size:15px;
+
+}
+.homebutton{
+  height: 120px;
+}
+/* Testimonials */
+#testimonials{
+text-align: center;
+background-color: #ef8172;
+  color: #fff;
+}
+.Abt-us{
+  background-color: white;
+  line-height: 30px;
+  padding-top: 4%;
+  padding-bottom: 9%;
+  background-image: url("bg-img2.jpeg");
+  height: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#testimonials{
+  background-color: #d5ebe7;
+  color: #404242;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 4rem;
+  height: 5rem;
+}
+.car-detail{
+  width: 60%;
+  line-height: 1.5;
+  margin-left: 280px;
+}
+.em{
+  font-size: 10px;
+}
+.img-circle{
+  border-radius:100px;
+  margin-left: 70px;
+
+}
+.ptitle{
+  text-align: center;
+
+}
+#between{
+ position:relative;
+ margin-left:100px;
+ margin-right: 100px;
+ padding-top: 5%;
+ padding-bottom: 6%;
+}
+.top{
+  background-color: #EAF6F6;
+  padding-bottom: 200px;
+
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.help{
+  text-align: center;
+  padding-bottom: 21px;
+
+}
+.helpimg{
+  width: 100px;
+  height: 100px;
+}
+.row1{
+padding-bottom:100px;
+}
+.logoform{
+  width:100px;
+  border-radius: 100px;
+  height: 100px;
+}
+.bottom-container{
+  padding: 50px 0 20px;
+  background-color:#66BFBF;
+  margin-top: 114px;
+}
+.carousel-img{
+  margin: 80px;
+}
+.ptitle{
+  padding-bottom: 100px;
+}
+figcaption {
+
+  color:grey;
+  font-style: italic;
+  padding: 2px;
+  text-align:bottom;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 10px;
+}
+.row{
+  margin-left: 30px;
+}
+.y{
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75 rem;
+  padding: 20px 0;
+}
+.checkbox-text{
+  font-size: 10px;
+}
+.donatebtn{
+  position: relative;
+  bottom: 20px;
+}
